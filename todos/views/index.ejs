@@ -1,0 +1,18 @@
+<% layout('layout') %>
+
+<h1><%= title %></h1>
+
+<form action="/todos/create" method="post" accept-charset="utf-8">
+	<input type="text" name="content" />
+	<input type="submit" name="submit" />
+</form>
+
+<% todos.forEach((todo) => { %>
+	<div>
+		<p><%= todo.content %> - <%= todo.updated_at %></p>
+		<p><a href="/todos/edit/<%= todo._id %>">Edit</a></p>
+		<p><a href="/todos/destroy/<%= todo._id %>">Destroy</a></p>
+
+	</div>
+
+<% }); %>

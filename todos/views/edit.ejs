@@ -1,0 +1,12 @@
+<% layout('layout') %>
+
+<h1><%= title %></h1>
+<p>Todo: <%= todo.content %></p>
+<p>Last updated: <%= todo.updated_at %></p>
+
+<form action="/todos/update/<%=todo._id %>" method="post" accept-charset="utf-8">
+	<input type="text" name="content" />
+	<input type="submit" name="submit" />
+</form>
+
+<a href="/todos"></a>
