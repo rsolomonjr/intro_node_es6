@@ -49,5 +49,5 @@ Resources for the intro to Node weekend workshop.
 
 
 ## Sublime Packages
-[JavaScriptNext](https://github.com/Benvie/JavaScriptNext.tmLanguage)
-[Emmet](http://emmet.io/)
+* [JavaScriptNext](https://github.com/Benvie/JavaScriptNext.tmLanguage)
+* [Emmet](http://emmet.io/)
