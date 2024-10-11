@@ -7,7 +7,7 @@
     "start": "nodemon server.js"
   },
   "dependencies": {
-    "express": "4.16.0",
+    "express": "4.21.1",
     "ejs": "*",
     "ejs-locals": "1.0.2",
     "mongoose": "*"
